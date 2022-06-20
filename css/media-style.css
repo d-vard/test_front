@@ -1,0 +1,39 @@
+@media (max-width: 1199px) {}
+@media (max-width: 1023px) {
+    .product_block {flex: 0 0 50%;max-width: 50%;}
+
+    .product_box {
+        justify-content: center;
+    }
+}
+@media(max-width: 767px) {
+    .product_block {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 40px 20px;
+    }
+
+    .product_box {
+        margin: -20px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .product_title {
+        font-size: 24px;
+    }
+
+    .product_name {
+        font-size: 38px;
+    }
+
+    .product_name span {
+        font-size: 20px;
+    }
+
+    .product_weight span:first-child {
+        font-size: 38px;
+    }
+}
